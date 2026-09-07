@@ -59,6 +59,18 @@ body {
 
 .profile-wrapper {
   position: relative;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.profile-wrapper:hover .profile-image {
+  border-color: #159b64;
 }
 
 .profile-image {
@@ -118,6 +130,16 @@ body {
   background: #f1f5f9;
 
   color: #16a34a;
+}
+
+.logout-button {
+  text-decoration: none;
+}
+
+.logout-button:hover {
+  background: #fef2f2;
+
+  color: #dc2626;
 }
 
 .sidebar-actions {
