@@ -15,6 +15,23 @@ Project ini merupakan website chatting online yang dibuat menggunakan HTML, CSS,
 
 ## 📂 Struktur Project
 
-```text
-
-```
+Project/
+│
+├── Login/
+│ ├── login.html
+│ └── login.js
+│
+├── Registrasi/
+│ ├── Registrasi.html
+│ └── registrasi.js
+│
+├── homepage/
+│ └── index.html
+│
+├── profile/
+│ └── profile.html
+│
+└── css/
+├── style.css
+├── styleforhomepage.css
+└── styleforprofile.css
